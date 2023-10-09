@@ -1,0 +1,311 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: white;
+}
+.navbar{
+    height: 80px;
+    width: 2000px;
+    background-color: rgb(11, 11, 225);
+    display: flex;
+    position:fixed;
+    
+      
+}
+h1{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1:hover{
+    color:greenyellow;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+    
+}
+
+h2{
+    padding-top:25px;
+    padding-left:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2:hover{
+    color:greenyellow;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+    pointer-events: fill;
+    transform-origin: left;
+    animation-fill-mode: forwards;
+    cursor:pointer;
+}
+#reg{
+    border: 1px white solid transparent;
+}
+#line{
+    padding-left: 700px;
+}
+#text-box{
+    height:50px;
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 500px;
+    border-color: black;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+}
+#button{
+    height:40px;
+    width:75px;
+    
+    background-color: black;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+#button:hover{
+    background-color:rgb(216, 2, 2);
+    cursor:pointer;
+}
+
+body{
+    background-image: url(landimg.jpeg);
+    position: inherit;
+}
+#head{
+    transition: none;
+    text-decoration: none;
+    text-shadow :50px;
+    text-transform: none;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    text-decoration-color: aliceblue;
+    transform: none;
+    transition: none;
+}
+#but2{
+    height:50px;
+    width:150px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 700px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    cursor:pointer;
+  
+}
+#but2:hover{
+    background-color: red;
+}
+.boxes{
+   display:flex;
+   margin-top: 60px;
+
+}
+.box1{
+   background-color: aliceblue;
+   height:500px;
+   width: 600px;
+   margin-left: 70px;
+   padding:20px;
+   padding-top:40px;
+   border-radius: 10px;
+}
+#img1{
+    background-image: url(web\ develop.jpg);
+    height: 100px;
+    width:300px;
+    padding-top: 80px;
+    border-radius: 7px;
+    margin-left: 150px;
+}
+.web{
+    color: black;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+}
+#dev{
+    font-size: 20px;
+    color: black;
+}
+#web-log{
+    color: black;
+}
+#web-log:hover{
+    color:red;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+    pointer-events: fill;
+    
+    transform-origin: left;
+    animation-fill-mode: forwards;
+    cursor:pointer;
+    
+
+}
+.box2{
+background-color: aliceblue;
+height:500px;
+width: 600px;
+margin-left: 70px;
+padding:20px;
+padding-top:40px;
+border-radius: 10px;
+}
+
+#img2{
+    background-image: url(cyber.jpg);
+    height: 100px;
+    width:300px;
+    padding-top: 80px;
+    border-radius: 7px;
+    margin-left: 150px;
+}
+.cy{
+    color: black;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.fix3{
+    background-color: aliceblue;
+    height:500px;
+    width: 600px;
+    margin-left: 20px;
+    border-radius: 10px;
+    }
+
+    #cyb-log{
+        color: black;
+    }
+    #cyb-log:hover{
+        color:red;
+        text-decoration-color: black;
+        text-decoration-line: underline;
+        pointer-events: fill;
+        transform-origin: left;
+        animation-fill-mode: forwards;
+        cursor:pointer;
+    }
+
+    .sign-up b{
+        color:rgb(13, 13, 13);
+        margin-top: 150px;
+        font-weight: 600;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        padding-left: 10px;
+        text-align:center;
+        text-decoration: underline;
+        text-decoration-color: rgb(18, 2, 63);
+        position: left;
+        
+    }
+    .sign-up b:hover{
+        color:rgb(202, 6, 6);
+    }
+
+
+    #mail-id{
+    height:50px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-color: black;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    }
+
+    #phone-num{
+    height:50px;
+     width: 400px;
+     border-radius: 20px;
+      margin-top: 20px;
+     margin-left: 150px;
+     border-color: black;
+      color: black;
+     font-size: medium;
+     font-weight: 500;
+     margin-top: 30px;
+        
+
+    }
+
+    #but3{
+        height:40px;
+       width:75px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 300px;
+    margin-top: 20px;
+    }
+    #but3:hover{
+        cursor: pointer;
+        background-color: violet;
+
+    }
+
+    .logo{
+
+        height:100px;
+        width: fit-content;
+    }
+    #instalogo{
+        padding-top: 2px;
+        margin-left: 100px;
+        margin-top: 10px;
+        border-radius: 15px;
+        border-color: black;
+    }
+   #facelogo {
+    padding-top: 2px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+#tellogo{
+    padding-top: 2px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: black;
+
+}
+#gitlogo{
+    padding-top: 2px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: black;
+
+
+}
+.foot{
+    height: 60px;
+    width: auto;
+    margin-top: 50px;
+    font-size: 20px;
+   margin-left: 100px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+   
